@@ -1,0 +1,68 @@
+body{
+    background: #eee ;
+}
+#login{
+    background: #fff ;
+    width: 400px;
+    margin: 10vh auto;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#login h1{
+    font-size: 33px;
+    background: blueviolet ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container{
+    background: #fff ;
+}
+
+.delete{
+    color: red;
+    font-weight: bold;
+}
+
+#loader{
+    text-align: center;
+}
+
+#loader img{
+    height: 128px;
+}
+
+#folder-list .button.float-right{
+    font-size: 8pt;
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+#folder-list .button.float-right:hover{
+}
+
+#folder-list{
+    height: 240px;
+    overflow-y: scroll;
+}
+#folder-list li:nth-child(odd){
+    background: #eee ;
+}
+
+
+#notification{
+    position: relative;
+    min-height: 1em;
+    margin: 1em 0;
+    padding: 1em 1.5em;
+    line-height: 1.4285em;
+    -webkit-transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease;
+    transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease;
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 1px #a9d5de inset, 0 0 0 0 transparent;
+    background-color: #f8ffff;
+    color: #276f86;
+    display: none;
+}

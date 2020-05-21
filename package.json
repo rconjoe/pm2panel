@@ -1,0 +1,35 @@
+{
+  "name": "pm2panel",
+  "version": "1.0.0",
+  "description": "pm2 web control panel to manager process with web ui",
+  "main": "pm2panel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://A1Gard@github.com/4xmen/pm2panel.git"
+  },
+  "keywords": [
+    "pm2",
+    "process",
+    "cotrol",
+    "panel",
+    "web",
+    "ui"
+  ],
+  "author": "A1Gard",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/4xmen/pm2panel/issues"
+  },
+  "homepage": "https://github.com/4xmen/pm2panel#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

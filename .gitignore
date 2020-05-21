@@ -1,0 +1,4 @@
+.npm
+.env
+*.tgz
+node_modules/
